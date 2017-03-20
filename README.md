@@ -25,10 +25,10 @@ $ nombregen
 
 ## with bundler:
 
-$ bundle exec nombregen
+$ bundle exec nombre
 
 ## naming PDF file
-$ nombregen foo.pdf
+$ nombre foo.pdf
 ```
 
 To merge into book.pdf, you can use PDFTK:

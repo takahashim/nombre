@@ -21,8 +21,20 @@ Or install it yourself as:
 ## Usage
 
 ```console
-$ bundle install
-$ bundle exec nombregen foo.pdf
+$ nombregen
+
+## with bundler:
+
+$ bundle exec nombregen
+
+## naming PDF file
+$ nombregen foo.pdf
+```
+
+To merge into book.pdf, you can use PDFTK:
+
+```console
+$ pdftk book.pdf multistamp nombre.pdf output out.pdf
 ```
 
 ## Development

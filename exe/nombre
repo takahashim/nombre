@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require "bundler/setup"
 require "nombre"
 
 filename = ARGV[0] || "nombre.pdf"
